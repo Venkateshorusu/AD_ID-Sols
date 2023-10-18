@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-17T13:14:44 IST" name="Opencart App Test Regression Suite" finished-at="2023-10-17T13:20:09 IST" duration-ms="324536">
+    <groups>
+    </groups>
+    <test started-at="2023-10-17T13:14:44 IST" name="Customer Order" finished-at="2023-10-17T13:20:09 IST" duration-ms="324536">
+      <class name="com.qa.AD_ID.tests.LabelsAndTagsConfiguration">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.AD_ID.tests.LabelsAndTagsConfiguration@7affc159]" started-at="2023-10-17T13:14:44 IST" name="setup" finished-at="2023-10-17T13:15:01 IST" duration-ms="16469" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="labelsAndTagsConfiguration()[pri:0, instance:com.qa.AD_ID.tests.LabelsAndTagsConfiguration@7affc159]" started-at="2023-10-17T13:15:01 IST" name="labelsAndTagsConfiguration" finished-at="2023-10-17T13:20:08 IST" duration-ms="307314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- labelsAndTagsConfiguration -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.AD_ID.tests.LabelsAndTagsConfiguration@7affc159]" started-at="2023-10-17T13:20:09 IST" name="tearDown" finished-at="2023-10-17T13:20:09 IST" duration-ms="294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.AD_ID.tests.LabelsAndTagsConfiguration -->
+    </test> <!-- Customer Order -->
+  </suite> <!-- Opencart App Test Regression Suite -->
+</testng-results>
