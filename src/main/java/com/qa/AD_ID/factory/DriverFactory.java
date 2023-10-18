@@ -210,14 +210,14 @@ public class DriverFactory {
 		String JenkinsPath=jenkins+ImageName;
 		 ;
 		 
-		File destination = new File(localPath);
+		File destination = new File(JenkinsPath);
 		try {
 			FileHandler.copy(srcFile, destination);
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
 
-		return localPath;
+		return JenkinsPath;
 	}
 	
 	public static String takeLongScreenshotAndSaveAsPDF( WebDriver driver )
